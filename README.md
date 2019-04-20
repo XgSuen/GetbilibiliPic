@@ -6,7 +6,7 @@
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;然后就开始爬，先在b站搜索JFla</p>
 <div align="center"><img src="https://github.com/foreversunx/GetbilibiliPic/blob/master/1.png" width="800" height="450" /></div>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;可以看到我们搜到了很多，大概一共有50页的样子。既然是爬取封面，那就先看一下这个页面的源码，万一链接在里面呢，虽然可能性比较小，但是还是看看吧。</p>
-<div align="center"><img src="https://github.com/foreversunx/GetbilibiliPic/blob/master/2.png" width="800" height="450" /></div>
+<div align="center"><img src="https://github.com/foreversunx/GetbilibiliPic/blob/master/2.png" width="800" height="300" /></div>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;好吧，可以看到src="",alt=""是空的，说明封面图片不在这，但是我们能看到，不仅标题在这里，视频的av号也在这里，觉得有可能有用，先标注一下。然后就只能去network里面找了，找来找去没找着......算了，不找了！干脆暴力一点，随便找一个视频点进去，打开network，我就不信找不到你！</p>
 <div align="center"><img src="https://github.com/foreversunx/GetbilibiliPic/blob/master/3.png" width="800" height="450" /></div>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;找到view？aid=****...**文件，打开preview一下，果然，被我找到了，可算发现你了。发现pic链接，就是它了，我们就准备获取它。复制它的adress，发现是 https://api.bilibili.com/x/web-interface/view?aid=9467312 于是我们猜测，每个视频包含我们想要数据的链接都长这样，只是aid即av号不一样而已，再随便打开几个看一下，证实了这个想法。那就好办了，之前不是说网页源码可以获取本页视频av号嘛，那就搞！</p>
