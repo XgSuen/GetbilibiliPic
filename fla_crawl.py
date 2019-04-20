@@ -78,10 +78,5 @@ for i in range(1, pages+1):
 print('Download Finish!')
 print("Save Finish!")
 
-"""
-爬完50页
-存到数据库
-写博客或者github！！！！！
-"""
 
 
