@@ -5,3 +5,4 @@
 及标题都爬下来吧，满足于一下自己的双面需求。因此将实现的想法和过程放出来，大家可以一起讨论。(图片也上传了哟)</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;然后就开始爬，首先在b站搜索JFla</p>
 <div align="center"><img src="https://github.com/foreversunx/GetbilibiliPic/blob/master/1.png" width="600" height="300" /></div>
+<p>可以看到我们搜到了很多，大概一共有50页的样子。</p>
